@@ -1,0 +1,33 @@
+body {
+    font-family: "Caveat", cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/back.png');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 8vh;
+    margin: 0;
+}
+
+h2 {
+    font-size: 4vh;
+    margin: 2vh;
+}
+
+h1, h2 {
+    background-color: rgb(231, 79, 79);
+    box-shadow: 4px 4px 20px 4px rgb(120, 42, 42);
+    color: white;
+    border-radius: 60px;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+img {
+    width: 60vw;
+}
